@@ -9,8 +9,7 @@ public class Contacts {
     private int zip;
     private long phoneNumber;
     private String email;
-
-    @Override
+	@Override
     public String toString() {
         return "Contacts{" +
                 "firstName=" + firstName + '\'' +
@@ -87,6 +86,9 @@ public class Contacts {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+    
+    protected void remove(Contacts contacts) {
     }
 
 }

@@ -125,6 +125,12 @@ public class AddressBook {
 	    public void sortState() {
 	        Collections.sort(list, Sort.compareState);
 	    }
+	    
+
+	    public void countList() {
+	        Long total = list.stream().count();
+	        System.out.println(total);
+	    }
 
 	   @Override
 	    public String toString() {

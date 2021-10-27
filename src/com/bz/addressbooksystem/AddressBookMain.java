@@ -23,6 +23,7 @@ public class AddressBookMain {
 		addressBook.edit();
 		addressBook.sortCity();
 		addressBook.sortState();
+		addressBook.countList();
 
 	}
 }

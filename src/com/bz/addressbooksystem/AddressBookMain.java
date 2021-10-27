@@ -14,10 +14,14 @@ public class AddressBookMain {
 		newContact.setEmail("rajputnikita5666@gmail.com \n");
 		newContact.setPhoneNumber(1234567890);
 		System.out.println("The Contact is : " + newContact);
-		
-		//To add new contact
+
+		// To add new contact
 		AddressBook addressBook = new AddressBook();
-        addressBook.operation();
+		addressBook.operation();
+		addressBook.add();
+		addressBook.delete();
+		addressBook.edit();
+		addressBook.sortCity();
 
 	}
 }

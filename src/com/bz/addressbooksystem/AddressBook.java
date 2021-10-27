@@ -1,6 +1,7 @@
 package com.bz.addressbooksystem;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.Scanner;
 
@@ -116,6 +117,10 @@ public class AddressBook {
 			}
 		}
 	}
+	
+	 public void sortCity() {
+	        Collections.sort(list, Sort.compareCity);
+	    }
 
 	   @Override
 	    public String toString() {

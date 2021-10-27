@@ -22,6 +22,7 @@ public class AddressBookMain {
 		addressBook.delete();
 		addressBook.edit();
 		addressBook.sortCity();
+		addressBook.sortState();
 
 	}
 }

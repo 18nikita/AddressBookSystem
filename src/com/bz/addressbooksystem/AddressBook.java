@@ -131,6 +131,10 @@ public class AddressBook {
 	        Long total = list.stream().count();
 	        System.out.println(total);
 	    }
+	    
+	    public void sortByFirstName() {
+	        Collections.sort(list, Sort.compareFirstName);
+	    }
 
 	   @Override
 	    public String toString() {

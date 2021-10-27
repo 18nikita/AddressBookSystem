@@ -24,6 +24,7 @@ public class AddressBookMain {
 		addressBook.sortCity();
 		addressBook.sortState();
 		addressBook.countList();
+		addressBook.sortByFirstName();
 
 	}
 }

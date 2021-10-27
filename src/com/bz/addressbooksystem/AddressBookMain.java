@@ -25,6 +25,7 @@ public class AddressBookMain {
 		addressBook.sortState();
 		addressBook.countList();
 		addressBook.sortByFirstName();
+		addressBook.sortByZip();
 
 	}
 }

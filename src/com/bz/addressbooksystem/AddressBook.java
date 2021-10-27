@@ -135,6 +135,10 @@ public class AddressBook {
 	    public void sortByFirstName() {
 	        Collections.sort(list, Sort.compareFirstName);
 	    }
+	    
+	    public void sortByZip() {
+	        Collections.sort(list, Sort.compareZip);
+	    }
 
 	   @Override
 	    public String toString() {
